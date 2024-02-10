@@ -1,0 +1,32 @@
+; ==============================================================================
+; This file helps to enforce a consistent coding style across different editors.
+; (Please use single-line comments for compatibility with Neovim!)
+; https://editorconfig.org/
+; ==============================================================================
+
+# This is the project's root directory.
+root = true
+
+# Defaults for all files.
+[*]
+
+# Files are UTF-8 encoded.
+charset = utf-8
+
+# Files use Unix line endings.
+end_of_line = lf
+
+# Use spaces for indentation.
+indent_style = space
+
+# Each indent should contain two spaces.
+indent_size = 2
+
+# For VCS, end files with an empty line.
+insert_final_newline = true
+
+# Lines should not exceed this length.
+max_line_length = 120
+
+# No whitespace on the end of lines.
+trim_trailing_whitespace = true
