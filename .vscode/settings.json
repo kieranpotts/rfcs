@@ -1,0 +1,13 @@
+{
+
+  // Disable vertical rulers in editor tabs.
+  "editor.rulers": [],
+
+  // Transform tab indents to two spaces. Enforce this — don't allow VS Code
+  // to override based on what it thinks is the existing indentation format of
+  // each file.
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+}
