@@ -1,0 +1,10 @@
+title: "[Copy the PR title here] "
+labels: []
+body:
+  - type: input
+    id: pr
+    attributes:
+      label: PR
+      description: Link to the RFC PR
+    validations:
+      required: true
