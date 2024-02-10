@@ -1,0 +1,50 @@
+{
+
+  /* Vertical guidelines for line wrapping – disabled for this repo,
+  as there is no line wrapping for the Markdown files. */
+  "editor.rulers": [
+  ],
+
+  /* Wrap long code lines at the viewport or 120 characters, whichever is
+  narrowest. For documentation, wrap lines at the viewport edge. */
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "[asciidoc]": {
+    "editor.wordWrap": "on",
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+  },
+
+  /* Enforce 2 spaces for indentation. */
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  /* Show control and empty space characters. */
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+
+  /* Enable all auto-formatting mechanisms. */
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  /* Enable auto-fixes. */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+  },
+
+  /* JS/TS formatting and validation MUST be set per-repo AND per-workspace. */
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
+
+  /* Don't allow commits to protected branches. */
+  "git.branchProtectionPrompt": "alwaysPrompt",
+  "git.branchProtection": [
+    // "stable",
+    // "release/*",
+  ],
+
+}
