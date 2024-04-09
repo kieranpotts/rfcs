@@ -1,6 +1,6 @@
 # Requests for Comments (RFCs)
 
-> NOTE: This repository is a template for Git repositories that are used to manage Requests for Comments (RFCs) for a software project. It is not a real project. To use this template, click the "Use this template" button, above. For more information, read the [accompanying blog post](https://kieranpotts.com/rfcs).
+> NOTE: This repository is a template for Git repositories that are used to manage Requests for Comments (RFCs) for software projects. For more information, read the [accompanying blog post](https://kieranpotts.com/rfcs).
 
 This repository is the home of the Requests for Comments (RFCs) process for [Project Name].
 
@@ -12,7 +12,7 @@ The primary purpose of this repository is to record architecturally-significant 
 
 A Request for Comments (RFC) is a proposal for a _significant_ change to the system design or architecture, or to our development and operations life cycle processes (automated or otherwise).
 
-Many changes, such as bug fixes and documentation improvements, can be implemented and subsequently reviewed via the normal merge request workflow. But some changes are substantial enough that it is beneficial to get early feedback and build consensus among stakeholders on the solution design _before_ its implementation. This is the purpose of the RFC process.
+Many changes, such as bug fixes and documentation improvements, can be implemented and subsequently reviewed via the normal merge request workflow. But some changes are substantial enough that it is beneficial to get early feedback and to build consensus among stakeholders on the solution design _before_ its implementation. This is the purpose of the RFC process.
 
 Significant changes that require pre-approval via an RFC include, but are not limited to:
 
@@ -30,7 +30,7 @@ Anyone can contribute to the technical direction of this project by submitting p
 
 To contribute, follow these steps:
 
-1. External contributors must fork the RFC repository into another personal or organization account on GitHub. (Maintainers with write access to the reference repository may skip this step.)
+1. External contributors must fork the RFC repository into another personal or organization account on GitHub. Users with write access to the reference repository may skip this step.
 
 2. Branch off from `main` using the naming convention `proposal/[description]`, where `[description]` is a short hyphen-delimited slug describing the proposed change. For example, `proposal/git-for-version-control`.
 
@@ -42,15 +42,17 @@ To contribute, follow these steps:
 
 The project maintainers will review your proposal and provide feedback. If they agree the idea should be explored in more detail, they will open a discussion thread and request comments from other stakeholders. During the RFC process, you should be prepared to build consensus for your idea, and to revise your proposal in response to feedback.
 
-Once discussion has resolved the main points of contention and the proposed solution has stabilized, the maintainers will provisionally mark the proposal as "accepted" or "rejected" and invite final comments. The final comment period lasts for at least _____ weeks.
+Once discussion has resolved the main points of contention, and once the proposed solution has stabilized, the project maintainers will provisionally mark the proposal as "accepted" or "rejected" and invite final comments. The final comment period lasts for at least _____ weeks.
 
-The outcome of the RFC process will be for your proposal document to be merged into the `main` branch of the upstream reference repository. All proposals are merged, whether they are ultimately accepted or rejected. On merging, the project maintainers will make final edits to your PR, giving the RFC a unique numerical ID and changing the document's status to `ACCEPTED` or `REJECTED`, depending on the final outcome.
+The outcome of the RFC process will be for your proposal document to be merged into the `main` branch of the upstream reference repository. All proposals (except drafts) are merged, whether they are ultimately accepted or rejected. On merging, the project maintainers will make final edits to your PR, giving the RFC a unique numerical ID and changing the document's status to `ACCEPTED` or `REJECTED`, depending on the final outcome.
 
-When a proposal is accepted, it is said to be pending implementation, and the project maintainers will open tickets to track the implementation. Those tickets will be linked from the proposal document, and vice versa. Tasks will be prioritized and assigned to individual contributors in the normal way; the acceptance of an RFC is not approval to begin development, and it will not necessarily be the case that the author of the RFC will be the one who implements the idea.
+When a proposal is accepted, it is said to be pending implementation, and the project maintainers will open tickets to track the implementation. Those tickets will be linked from the proposal document, and vice versa. Tasks will be prioritized and assigned to individual contributors in the normal way. The acceptance of an RFC is not approval to begin development. And it will not necessarily be the case that the author of the RFC will be the one who implements the required changes.
 
 Finally, when the implementation is complete, the status of the document will be changed to `IMPLEMENTED`.
 
-During development, the design of a solution may be further iterated away from the original proposal. Therefore accepted proposals will continue to be edited by the project maintainers to reflect the final design. But once the implementation is done (which means, shipped to production), the contents of the RFC document will thereafter be treated as immutable. To change or revert past decisions that have been implemented, new proposals must be put forward that supersede the original ones. The status of the original decisions will be changed to `DEPRECATED` and the relevant documents will be updated to cross-reference each other.
+During development, the design of a solution may be further iterated from the original proposal. Therefore accepted proposals will continue to be edited by the project maintainers to reflect the evolving design. But once the implementation is done (which means, shipped to production), the contents of the RFC document will be updated to reflect the final design and will thereafter be treated as immutable.
+
+To change or revert past decisions that have been already implemented, new proposals must be put forward that supersede the original ones. The status of the original decisions will be changed to `DEPRECATED` and the relevant documents will be updated to cross-reference each other.
 
 ```txt
 Supersedes: RFC 0123
@@ -69,15 +71,7 @@ By opening a pull request to this repository, you accept and agree to the follow
 
 ## Acknowledgements
 
-The concept of Requests for Comments originates from the IETF's RFC process, which is specified in [RFC 2026](https://www.rfc-editor.org/rfc/rfc2026.txt). The design of this RFC template has been influenced by:
-
-- [Ember RFCs](https://github.com/emberjs/rfcs)
-- [ESLint RFCs](https://github.com/eslint/rfcs)
-- [React RFCs](https://github.com/reactjs/rfcs)
-- [Rust RFCs](https://rust-lang.github.io/rfcs/) and [Major Change Proposals](https://forge.rust-lang.org/compiler/mcp.html)]
-- [Vue RFCs](https://github.com/vuejs/rfcs)
-- [Yarn RFCs](https://github.com/yarnpkg/rfcs)
-- [Architectural Decision Records (ADRs)](https://www.youtube.com/watch?v=rwfXkSjFhzc)
+The concept of Requests for Comments originates from the IETF's RFC process, which is specified in [RFC 2026](https://www.rfc-editor.org/rfc/rfc2026.txt). The design of this RFC template has been influenced by [Ember RFCs](https://github.com/emberjs/rfcs), [ESLint RFCs](https://github.com/eslint/rfcs), [React RFCs](https://github.com/reactjs/rfcs), [Rust RFCs](https://rust-lang.github.io/rfcs/) and [Major Change Proposals](https://forge.rust-lang.org/compiler/mcp.html)], [Vue RFCs](https://github.com/vuejs/rfcs), [Yarn RFCs](https://github.com/yarnpkg/rfcs), and [Architectural Decision Records (ADRs)](https://www.youtube.com/watch?v=rwfXkSjFhzc).
 
 ----
 
