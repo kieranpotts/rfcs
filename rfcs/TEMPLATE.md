@@ -3,14 +3,14 @@
 - Authors: Your Name [@your-github-handle], ...
 - Created: YYYY-MM-DD
 - Last updated: YYYY-MM-DD
-- Approvers: (leave this empty)
-- Approved date: (leave this empty)
-- RFC PR: (leave this empty)
-- Tracked by: (leave this empty)
+- Approvers:
+- Approval date:
+- RFC PR:
+- Tracked by:
 
 ## Status
 
-PROPOSED | CANCELLED | ACCEPTED | REJECTED | IMPLEMENTED | DEPRECATED
+PROPOSED | ACCEPTED | REJECTED | IMPLEMENTED | DEPRECATED
 
 ## Related
 
