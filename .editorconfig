@@ -1,5 +1,6 @@
 ; ==============================================================================
 ; This file helps to enforce a consistent coding style across different editors.
+; (Please use single-line comments for compatibility with Neovim!)
 ; https://editorconfig.org/
 ; ==============================================================================
 
