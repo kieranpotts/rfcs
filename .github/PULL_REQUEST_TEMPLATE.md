@@ -24,14 +24,13 @@ To move this proposal to the **final** stage the following conditions MUST be me
 - [ ] The proposal document has been updated with details of the final proposed solution.
 - [ ] The `exploring` label has been removed from the PR and the linked discussion thread.
 - [ ] The `final` label has been added to both the PR and the linked discussion thread.
-- [ ] Either the `accepted` or `rejected` label has been added to both the PR and the linked discussion thread, representing the agreed outcome.
+- [ ] Either the `accepted` or `rejected` label has been added to both the PR and discussion thread, representing the provisional outcome.
 
 For the proposal to be ultimately **accepted** or **rejected** the following conditions MUST be met:
 
-- [ ] The `final` label has been enabled for at least two weeks.
-- [ ] Final comments have been gathered since the RFC document was finalized.
+- [ ] Final comments have been solicited for at least _____ weeks.
 - [ ] The proposal has not materially changed during the final comments period.
-- [ ] The `final` label is removed immediately before the PR is merged or closed.
+- [ ] The `final` label has been removed from the PR and discussion thread.
 
 For the proposal to be **accepted** the following additional conditions MUST also be met:
 
