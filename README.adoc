@@ -1,3 +1,0 @@
-= Project Template
-
-This repository is a template for new code repositories.
